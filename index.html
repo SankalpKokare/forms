@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-align">
+        <img src="./image.jpg" alt="Photo by Haile West" id="background" />
+      </div>
+      <div class="right-align">
+        <div class="upper-text">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams
+          </p>
+          <p>You know you want to.</p>
+        </div>
+        <div class="sign-container">
+          <p>Let's do this!</p>
+          <div class="container-forms">
+            <form action="post">
+              <div class="row">
+                <div class="login-details">
+                  <label for="name">FIRST NAME</label> <br />
+                  <input type="text" id="fname" placeholder="Tony" />
+                </div>
+                <div class="login-details">
+                  <label for="last-name">LAST NAME</label> <br />
+                  <input type="text" id="lname" placeholder="Stark" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="login-details">
+                  <label for="email">EMAIL</label> <br />
+                  <input
+                    type="email"
+                    placeholder="tonystarks@email.com"
+                    id="email"
+                  />
+                </div>
+                <div class="login-details">
+                  <label for="Phone">PHONE NUMBER</label><br />
+                  <input type="tel" id="phone" placeholder="987654321" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="login-details">
+                  <label for="Password">PASSWORD</label> <br />
+                  <input type="password" id="password" />
+                </div>
+                <div class="login-details">
+                  <label for="confirm-password">CONFIRM PASSWORD</label><br />
+                  <input type="password" id="confirm-password" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <button>Create Account</button>
+        <div class="signin">
+          <p>Already have account?</p>
+          <a href="">Signup</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.left-align {
+  width: 40vw;
+  margin-right: 2vw;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  justify-content: left;
+  margin: 2vh 0;
+}
+
+.login-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  /* border: 3px solid black; */
+  margin-right: 7vw;
+  font-family: "Roboto Mono", monospace;
+}
+
+form {
+  /* border: 3px solid black; */
+  font-size: smaller;
+  padding: 3vh 0;
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+.right-align {
+  width: 60vw;
+  margin: 3vw;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.sign-container {
+  margin: 3vh 0;
+  padding: 3vh 0;
+}
+
+.upper-text {
+  margin-top: 10vh;
+  /* border: 3px black solid; */
+  font-size: larger;
+  font-weight: bold;
+}
+
+.signin > p {
+  margin: 0;
+}
+.signin {
+  display: flex;
+  /* border: 3px black solid; */
+}
+
+a {
+  margin: 0 0.5vw;
+  color: #596d48;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: large;
+  color: #304121;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 1%;
+  margin-bottom: 3vh;
+  background-color: #596d48;
+  color: white;
+  width: 10vw;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: #304121;
+}
+
+input {
+  height: 3vh;
+  width: 20vw;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+#background {
+  height: 100%;
+  width: 100%;
+}
+
+
