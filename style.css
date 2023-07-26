@@ -95,14 +95,15 @@ height: 5vh;
   border-radius: 10px;
 }
 
-input:focus {
-  background-color: lightblue;
-}
+
 
 .CreateAccount:hover {
   background-color: #304121;
 }
 
+input:invalid:focus {
+ background-color: rgb(255, 199, 199);
+}
 input {
   height: 3vh;
   width: 20vw;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,7 +23,11 @@
         <div class="sign-container">
           <p>Let's do this!</p>
           <div class="container-forms">
-            <form action="post">
+            <form
+              method="post"
+              name="sign"
+              onsubmit="return validatepassword()"
+            >
               <div class="row">
                 <div class="login-details">
                   <label for="name">FIRST NAME</label> <br />
@@ -48,8 +53,9 @@
                   <input
                     type="tel"
                     id="phone"
-                    placeholder="987654321" 
+                    placeholder="987654321"
                     maxlength="10"
+                    pattern="[0-9]{10}"
                     required
                   />
                 </div>
@@ -59,7 +65,7 @@
                   <label for="Password">PASSWORD</label> <br />
                   <input
                     type="password"
-                    id="password"
+                    name="password"
                     placeholder="8 Digit Password"
                     maxlength="8"
                     required
@@ -69,7 +75,7 @@
                   <label for="confirm-password">CONFIRM PASSWORD</label><br />
                   <input
                     type="password"
-                    id="confirm-password"
+                    name="cpassword"
                     placeholder="8 Digit Password"
                     maxlength="8"
                     required
