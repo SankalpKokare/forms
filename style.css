@@ -86,19 +86,20 @@ body {
   padding: 0;
 }
 
-button {
-  padding: 1%;
+.CreateAccount {
+height: 5vh;
   margin-bottom: 3vh;
   background-color: #596d48;
   color: white;
-  width: 10vw;
+ width: 15vw;
+  border-radius: 10px;
 }
 
 input:focus {
   background-color: lightblue;
 }
 
-button:hover {
+.CreateAccount:hover {
   background-color: #304121;
 }
 
